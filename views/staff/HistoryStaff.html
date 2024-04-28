@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>History</title>
+        <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+        <script src="/public/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="/public/css/Navbar.css">
+        <link rel="stylesheet" href="/public/css/HistoryLander.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </head>
+        <!-- navbar -->
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="ms-3">
+                <a class="text-white me-2" href="/staff/bookPage">BOOK</a> |
+                <a class="text-white me-2" href="/staff/historyPage">HISTORY</a> |
+                <a class="text-white me-2" href="/logout">LOGOUT</a> |
+            </div>
+            <div class="d-flex">
+                <span id="username" class="text-white me-3 mt-2">username</span>
+                <a href="/logout" class="btn btn-danger me-3">Logout</a>
+            </div>
+        </nav>
+    <body>
+        <div>
+            <div class="container pt-4">
+                <div class="text-center"></div>
+                <div>
+                    <table class="table table-bordered text-center" id="table">
+                        <thead class="table-dark">
+                            <tr class="bg-light-gray">
+                                <th>No.</th>
+                                <th>Borrower Name</th>
+                                <th>Boook</th>
+                                <th>Barcode</th>
+                                <th>Approval Request Date</th>
+                                <th>Approval Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>  
+    </body>
+<script src="/public/js/HistoryStaff.js"></script>
+</html>

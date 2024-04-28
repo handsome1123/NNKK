@@ -1,0 +1,85 @@
+body {
+    font-family: Mukta, sans-serif;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding-right: 300px;
+    
+  }
+  #table{
+    border-collapse: collapse;
+/* padding-top: 20%; */
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+    width: 150%;
+    height: 500px;
+   
+}
+th {
+    /* padding: 1rem 2rem; */
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+
+ .table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.bg-yellow {
+    background-color: #f0d001
+}
+.padding-15px-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-5px-tb {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.font-size13 {
+    font-size: 13px;
+}
+
+.text-light-gray {
+    color: #d6d5d5;
+}
+.font-size13 {
+    font-size: 13px;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .90rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+   
+}
+.container {
+    width: 40%;
+}
+.search-container{
+    margin-left: 50ch;
+}
+.user-container{
+    margin-left: 8%;;
+}

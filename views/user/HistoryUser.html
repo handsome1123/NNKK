@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/public/js/bootstrap.bundle.min.js"></script>
+    <script src="/public/js/notiflix-aio-3.2.6.min.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="ms-3">
+            <a class="text-white me-2" href="/user/bookPage">BOOK</a> |
+            <a class="text-white me-2" href="/user/historyPage">HISTORY</a> |
+            <a class="text-white me-2" href="/logout">LOGOUT</a> |
+        </div>
+        <div class="d-flex">
+            <span id="username" class="text-white me-3 mt-2">username</span>
+            <a href="/logout" class="btn btn-danger me-3">Logout</a>
+        </div>
+    </nav>
+        <!-- order history table -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                     <th>Book Name</th> 
+                     <th>Booking Date</th> 
+                     <th>Return Date</th>
+                     <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+</body>
+<script src="/public/js/HistoryUser.js"></script>
+</html>

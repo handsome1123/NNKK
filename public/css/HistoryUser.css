@@ -1,0 +1,39 @@
+.card {
+    margin-right: 20px;
+    flex-direction: row;
+    max-width: 60em;
+    border: 0;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+    max-width: 25%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-section {
+    max-width: 70%;
+}
+
+.card-text {
+    font-size: 11px;
+}
+
+.card-subtitle {
+    font-size: 13px;
+}
+.container {
+    float: right; 
+    width: 70%; 
+    padding-left: 20px; 
+}
